@@ -75,7 +75,7 @@ cd todo-summary-assistant
 PORT=3001
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_anon_key
-GEMINI_API_KEY=your_google_generative_ai_key
+GOOGLE_API_KEY=your_google_generative_ai_key
 SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
 ```
 
