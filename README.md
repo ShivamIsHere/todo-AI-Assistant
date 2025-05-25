@@ -176,8 +176,8 @@ create table todos (
 
 ## 📷 Screenshots
 
-- ![Screenshot](frontend/src/assets/screenshot/Screenshot1.png)
-- ![Screenshot](frontend/src/assets/screenshot/Screenshot2.png)
+- ![Screenshot](frontend/src/assets/Screenshot1.png)
+- ![Screenshot](frontend/src/assets/Screenshot2.png)
 
 Add your own:
 
