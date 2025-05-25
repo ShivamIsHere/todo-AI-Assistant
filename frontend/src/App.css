@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #1a1a1a;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.todo-box {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.input-group button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-group button:hover {
+  background-color: #0062cc;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.todo-item {
+  background-color: #444;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  word-break: break-word;
+}
+
+.todo-item input {
+  flex-grow: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: #333;
+  color: white;
+}
+
+.edit-button,
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.edit-button {
+  color: #00bfff;
+}
+
+.delete-button {
+  color: #ff4d4d;
+}
+
+.todo-item button:hover {
+  opacity: 0.8;
+}
+
+.summary-button {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.summary-button:hover {
+  background-color: #218838;
+}
